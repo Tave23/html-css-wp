@@ -64,8 +64,7 @@ a:hover{
   background-image: url(../img/banner.jpg);
   background-size: 100% auto;
   background-repeat:no-repeat;
-  
-  
+  background-position: center;
 }
 
 .jumbotext{
@@ -93,17 +92,34 @@ main{
 aside{
   width: 23%;
   min-height: 280px;
-  background-color: lightskyblue;
   float: left;
   margin: 3% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aside1{
+  background-image: url(../img/img-1.jpg);
+}
+
+.aside2{
+  background-image: url(../img/img-3.jpg);
 }
 
 .content-main{
   width: 48%;
   min-height: 280px;
-  background-color: lightskyblue;
   float: left;
   margin: 3% 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/banner-2.jpg);
+}
+
+.clearfix p{
+  color: #
 }
 
 /* footer */

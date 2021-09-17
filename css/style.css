@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.header{
+  width: 85%;
+  min-height: 70px;
+  margin: 10px auto;
+  background-color: blueviolet;
+}
+
+.jumbotron{
+  width: 85%;
+  min-height: 300px;
+  margin: 0 auto 10px;
+  background-color: burlywood;
+}
+
+main{
+  background-color: blue;
+  width: 85%;
+  min-height: 350px;
+  margin: 0 auto 5px;
+}
+
+.header-main{
+  width: 100%;
+  min-height: 45px;
+  background-color: lightskyblue;
+}
+
+aside{
+  width: 23%;
+  min-height: 280px;
+  background-color: lightskyblue;
+  float: left;
+  margin: 3% 0;
+}
+
+.content-main{
+  width: 48%;
+  min-height: 280px;
+  background-color: lightskyblue;
+  float: left;
+  margin: 3% 3%;
+}
+
+
+footer{
+  width: 85%;
+  height: 45px;
+  background-color: coral;
+  margin: auto;
+}

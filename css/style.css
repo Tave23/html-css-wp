@@ -96,6 +96,11 @@ aside{
   margin: 3% 0;
 }
 
+.img-main{
+  width: 100%;
+  height: 165px;
+  object-fit: cover;
+}
 
 .content-main{
   width: 48%;

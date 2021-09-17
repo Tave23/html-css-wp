@@ -1,3 +1,6 @@
+
+/* general */
+
 *{
   margin: 0;
   padding: 0;
@@ -10,12 +13,49 @@
   clear: both;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a { 
+  color: #878787;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+
+
+/* header */
+
 .header{
   width: 85%;
-  min-height: 70px;
-  margin: 10px auto;
-  background-color: blueviolet;
+  height: 130px;
+  margin: 10px auto 25px;
 }
+
+.logo img{
+  height: 60px;
+  padding-right: 10px;
+  border-right: 1px solid lightgrey;
+}
+
+.menu{
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+
+.menu ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* main */
+
 
 .jumbotron{
   width: 85%;
@@ -23,6 +63,7 @@
   margin: 0 auto 10px;
   background-color: burlywood;
 }
+
 
 main{
   background-color: blue;
@@ -53,6 +94,7 @@ aside{
   margin: 3% 3%;
 }
 
+/* footer */
 
 footer{
   width: 85%;
